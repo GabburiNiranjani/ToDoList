@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+*{
+    font-family: "poppins",sans=serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./images/image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .container{
+    border:2px solid white;
+    border-radius: 10px;
+    width:300px;
+    background-image: url(./images/image.jpeg);
+    margin-top: 10px;
+    
+  }
+  h1{
+    text-align: center;
+    color:#fff;
+    font-family: "poppins",sans-serif;
+  }
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+  #todoInput {
+    height:30px;
+    width:200px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+  }
+  #addTask {
+  background-color: #81a2b8;
+  width: 60px;
+  height: 25px;
+
+  }
+  #todoList{
+    margin: 15px;
+  }
+  .todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    width:250px;
+    border-radius: 5px;
+    background-color:whitesmoke;
+  }
+  .todoItem span {
+    text-align: center;
+    margin-right: 10px;
+    width: 70%;
+    overflow: hidden;
+  }
+  input[type="checkbox"] {
+    accent-color: #938191;
+  }
+  button {
+    margin: 5px;
+    border: none;
+    background:transparent;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .fas {
+    color: #81a2b8;
+    font-weight: 600;
+    
+  }
+  
+  .fa-plus {
+    color: white;
+  }
+  @media screen and(max-width:375px){
+    body{
+        width:100%;
+    }
+  }
+  
